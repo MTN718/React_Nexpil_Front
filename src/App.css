@@ -1,0 +1,34 @@
+.super-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7FA;
+}
+
+.page-main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: boldTitles;
+  src: url('./assets/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: regularText;
+  src: url('./assets/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: mediumText;
+  src: url('./assets/fonts/Montserrat-Medium.otf');
+}
+
+* {
+  box-sizing: border-box;
+}
